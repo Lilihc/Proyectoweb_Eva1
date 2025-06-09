@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"><!-- Enlace que conecta el archivo HTML con el archivo CSS -->
+</head>
+<body>
+
+<header>
+    <div class="container"><!--Contenedor principal del encabezado del sitio-->
+        <h1>¡Bienvenido a nuestra página!</h1><!--Título pricipal de la página-->
+        <p>Sitio web de muestra para una empresa ficticia</p><!--Descripcion breve del encabezado-->
+        <a href="#features" class="btn">Ver características</a><!--Boton que conecta o enlza con las carácteristicas-->
+    </div>
+</header>
+
+<section id="features"><!--Sección llamada 'features', contiene las características del servicio-->
+    <div class="container">
+        <h2>Características principales</h2><!--Título de segundo nivel para esta sección  -->
+        <div class="feature">
+            <h3>Facilidad de uso</h3>
+            <p>Nuestra plataforma es fácil de usar para cualquier persona, sin importar su experiencia.</p>
+             <!--Descripcion de la caraterística-->
+        </div>
+        <div class="feature">
+            <h3>Diseño moderno</h3><!--Subtítulo de otra característica-->
+            <p>Nuestro diseño está actualizado con las últimas tendencias para brindar la mejor experiencia al usuario.</p>
+        </div>
+        <div class="feature">
+            <h3>Soporte 24/7</h3>
+            <p>Ofrecemos soporte técnico las 24 horas del día, los 7 días de la semana, para ayudarte en cualquier momento.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials"><!-- Sección  'testimonials', contiene opiniones de clientes-->
+    <div class="container">
+        <h2>Testimonios</h2><!--Título de esta sección-->
+        <div class="testimonial">
+            <p>"¡Increíble servicio! ¡Gracias por hacer mi vida más fácil!"</p><!--Comentario de un cliente-->
+            <cite>- Cliente feliz</cite><!--Fuente del testimonio-->
+        </div>
+        <div class="testimonial">
+            <p>"Nunca pensé que encontraría una solución tan genial. ¡Recomendado al 100%!"</p>
+            <cite>- Otro cliente satisfecho</cite>
+        </div>
+    </div>
+</section>
+
+<section id="contact"><!--Seccion llamda 'contact' contiene formulario de contacto-->
+    <div class="container">
+        <h2>Contacto</h2><!--Título de esta sección-->
+        <form action="#" method="post"><!--Formulario para enviar los datos usando el método POST -->
+            <input type="text" name="name" placeholder="Nombre" required><!--Campo para el texto nombre-->
+            <input type="email" name="email" placeholder="Correo electrónico" required><!--Campo el correo electrónico-->
+            <textarea name="message" placeholder="Mensaje" required></textarea><!--Campo para escribir el mensaje-->
+            <button type="submit" class="btn">Enviar mensaje</button><!--Botón para enviar el mensaje-->
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Compañía XYZ. Todos los derechos reservados.</p><!--Pie de página con los derechos del autor-->
+    </div>
+</footer>
+
+</body>
+</html>
