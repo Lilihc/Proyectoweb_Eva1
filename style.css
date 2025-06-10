@@ -1,104 +1,109 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;/*Fuente base del sitio*/
+    margin: 0;/*Elimina el margen de body por defecto*/
+    padding: 0;/*Elimina el relleno por defecto*/
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
+    width: 80%;/*Ancho máximo del contenido dentro del contenedor*/
+    margin: 0 auto;/*Centra el contenido horizontalmente*/
+    padding: 20px 0;/*Espacio vertical interno*/
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
+    background-color: #333;/*Color oscuro de fondo para el encabezado*/
+    color: #fff;/*Texto en blanco*/
+    text-align: center;/*Texto centrado*/
+    padding: 100px 0;/*Espaciado vertical amplio*/
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.5em;/*Tamaño grande para el título princial*/
 }
 
 .btn {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    display: inline-block;/*Permite aplicar márgenes y padings*/
+    background-color: #007bff;/*Color azul del botón*/
+    color: #fff;/*Texto blanco del botón*/
+    padding: 10px 20px;/*Espacio interno del botón*/
+    text-decoration: none;/*Elimina el subrayado del enlace*/
+    border-radius: 5px;/*Bordes que redondean el botón*/
+    transition: background-color 0.3s ease;/*Transición suave de color al pasar el mause en el botón*/
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3;/*Color mas oscuro del botón al pasar el mause*/
 }
 
+/*Sección características*/
 section {
-    padding: 50px 0;
+    padding: 50px 0;/*Esapcio interno vertical en cada sección del sitio*/
 }
 
 h2 {
-    text-align: center;
+    text-align: center;/*Centra los títulos principales de cada sección*/
 }
 
 .feature {
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: center;/*Centra el contenido de cada característica*/
+    margin-bottom: 30px;/*Espacio interior entre características*/
 }
 
 .feature h3 {
-    font-size: 1.5em;
+    font-size: 1.5em; /*Tamaño para titúlo de cada característica*/
 }
 
+/*Testimonios*/
 .testimonial {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 30px;
+    background-color: #f9f9f9;/*Fondo blanco para los testimonios*/
+    padding: 20px;/*Espacio interno*/
+    border-radius: 5px;/*Borndes redondeados*/
+    margin-bottom: 30px;/*Espacio inferior entre testimonios*/
 }
 
 .testimonial p {
-    font-style: italic;
+    font-style: italic;/*Estilo cursiva para los comentarios*/
 }
 
 .testimonial cite {
-    font-weight: bold;
+    font-weight: bold;/*Nombre del testimonio en negrita*/
 }
 
+/*Formulario*/
 form {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px;/*Ancho maximo del formulario*/
+    margin: 0 auto;/*Centado horizontal*/
 }
 
-input[type="text"],
+input[type="text"],/*Indicador tipo de contenido en el recuadro*/
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    width: 100%;/*Ancho que ocupa toto el esapcio disponible*/
+    padding: 10px;/*Espacio interno*/
+    margin-bottom: 20px;/*Espacio entre campos del formulario*/
+    border-radius: 5px;/*Bordes redondeados*/
+    border: 1px solid #ccc;/*Borde gris claro de las líneas*/
 }
 
+/*Botón enviar*/
 button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #007bff;/*Mismo color que el botón ver características*/
+    color: #fff;/*Texto blanco*/
+    border: none;/*Sin borde*/
+    padding: 10px 20px;/*Espacio interno*/
+    border-radius: 5px;/*Bordes redondeados*/
+    cursor: pointer;/*Cursor de mano al pasar por encima el maus*/
+    transition: background-color 0.3s ease;/*Transición suave*/
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #0056b3;/*Color mas oscuro al pasar el mause*/
 }
 
+/*Pie de página*/
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333;/*Mismo color oscuro que el encabezado*/
+    color: #fff;/*Texto blanco*/
+    text-align: center;/*Centrado del contenido*/
+    padding: 20px 0;/*Espacio interno*/
 }
